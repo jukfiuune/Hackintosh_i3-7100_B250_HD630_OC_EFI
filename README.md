@@ -67,6 +67,6 @@ https://github.com/beyondgary/Hackintosh_i5-7500_B250_HD630_EFI
 
 * **Update BIOS to F10 to get the CFG Lock option and other things.**
   
-* If the display turns black on boot **plug out ** HDMI or DP and then **plug it back in.**
+* If the display turns black on boot **plug out** HDMI or DP and then **plug it back in.**
 
 * After installation **change the SMBIOS** to get Apple ID working. Follow Dortania's OpenCore Guide
