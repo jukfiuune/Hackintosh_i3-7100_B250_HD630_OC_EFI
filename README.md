@@ -2,7 +2,8 @@
 
 ## 📸 Screenshots
 
-Coming soon!
+![System Information](./Screenshots/SysInfo.png)
+![Geekbench](./Screenshots/Geekbench.png)
 
 ## 🖥️ Hardware & System
 
@@ -65,7 +66,7 @@ the sleep functionality will be restored.
 * This repo is a modified and updated version of this EFI: 
 https://github.com/beyondgary/Hackintosh_i5-7500_B250_HD630_EFI 
 
-* **Update BIOS to F10 to get the CFG Lock option and other things.**
+* If you are still haven't updated your BIOS ***_DO IT NOW_***
   
 * If the display turns black on boot **plug out** HDMI or DP and then **plug it back in.**
 
