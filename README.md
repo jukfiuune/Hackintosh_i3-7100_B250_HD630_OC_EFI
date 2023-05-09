@@ -17,7 +17,7 @@
 | NIC | i219-v |
 | SSD | Intel SATA SSD |
 | System | macOS Ventura 13.3.1 |
-| Bootloader | OpenCore 0.9.1 |
+| Bootloader | OpenCore 0.9.2 |
 | Models | iMac18,1, iMac18,2, iMac18,3 | 
 
 ## 🔧 BIOS settings
