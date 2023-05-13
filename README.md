@@ -1,5 +1,7 @@
 # 🍎 GA-B250M-D3H OpenCore Hackintosh
+## ***IMPORTANT !!!!***
 
+Unfortunately the time has come. I'm upgrading to a newer computer and I ***wont be able to*** update this EFI anymore. If anybody is interested of forking this I have no problem. As soon as I get the new PC I will hopefully make another EFI.
 ## 📸 Screenshots
 
 ![System Information](./Screenshots/SysInfo.png)
