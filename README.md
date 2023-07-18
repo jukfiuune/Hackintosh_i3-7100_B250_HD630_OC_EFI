@@ -1,7 +1,5 @@
 # 🍎 GA-B250M-D3H OpenCore Hackintosh
-## ***IMPORTANT !!!!***
 
-Unfortunately the time has come. I'm upgrading to a newer computer and I ***wont be able to*** update this EFI anymore. If anybody is interested of forking this I have no problem. As soon as I get the new PC I will hopefully make another EFI.
 ## 📸 Screenshots
 
 ![System Information](./Screenshots/SysInfo.png)
@@ -18,7 +16,7 @@ Unfortunately the time has come. I'm upgrading to a newer computer and I ***wont
 | Sound Card | ALC892 |
 | NIC | i219-v |
 | SSD | Intel SATA SSD |
-| System | macOS Ventura 13.3.1 |
+| System | macOS Ventura 13.4.1 |
 | Bootloader | OpenCore 0.9.2 |
 | Models | iMac18,1, iMac18,2, iMac18,3 | 
 
