@@ -16,8 +16,8 @@
 | Sound Card | ALC892 |
 | NIC | i219-v |
 | SSD | Intel SATA SSD |
-| System | macOS Ventura 13.4.1 |
-| Bootloader | OpenCore 0.9.2 |
+| Latest Tested System | macOS Sonoma 14.0 Beta (23A5337a) |
+| Bootloader | OpenCore 0.9.4 |
 | Models | iMac18,1, iMac18,2, iMac18,3 | 
 
 ## 🔧 BIOS settings
@@ -66,8 +66,31 @@ the sleep functionality will be restored.
 * This repo is a modified and updated version of this EFI: 
 https://github.com/beyondgary/Hackintosh_i5-7500_B250_HD630_EFI 
 
-* If you are still haven't updated your BIOS ***_DO IT NOW_***
+* If you are still haven't updated your BIOS ***_DO IT NOW_***.
   
-* If the display turns black on boot **plug out** HDMI or DP and then **plug it back in.**
+* If the display turns black on boot **plug out** HDMI or DP and then **plug it back in**.
 
-* After installation **change the SMBIOS** to get Apple ID working. Follow Dortania's OpenCore Guide
+* After installation **change the SMBIOS** to get Apple ID working. Follow Dortania's OpenCore Guide.
+
+* I have put the *-no\_compat\_check in the Boot Arguments (so Sonoma works) If you are ***_NOT INSTALLING SONOMA_*** remove it.
+
+* At some point the iGPU should stop working in **Sonoma**, just be **careful** and **make backups**.
+
+## 🔄 Upgrading to Sonoma
+* **BACKUP. REALLY IMPORTANT!!!!!!!** 
+
+* Use gibmacOS to download Sonoma.
+
+* Set the SMBIOS to iMac19,1 in EFI **(dont change anything else)**.
+
+* Turn off the internet before starting upgrade.
+
+* Upgrade normally.
+
+* After its done, make sure the --no\_compat\_check boot argument is set.
+
+* Set the SMBIOS to iMac18,1 in EFI.
+
+* **DOUBLE CHECK** before saving!
+
+* Reboot, plug in internet and enjoy!
