@@ -77,20 +77,20 @@ https://github.com/beyondgary/Hackintosh_i5-7500_B250_HD630_EFI
 * At some point the iGPU should stop working in **Sonoma**, just be **careful** and **make backups**.
 
 ## 🔄 Upgrading to Sonoma
-* **BACKUP. REALLY IMPORTANT!!!!!!!** 
+1. **BACKUP. REALLY IMPORTANT!!!!!!!** 
 
-* Use gibmacOS to download Sonoma.
+2. Use gibmacOS to download Sonoma.
 
-* Set the SMBIOS to iMac19,1 in EFI **(dont change anything else)**.
+3. Set the SMBIOS to iMac19,1 in EFI **(dont change anything else)**.
 
-* Turn off the internet before starting upgrade.
+4. Turn off the internet before starting upgrade.
 
-* Upgrade normally.
+5. Upgrade normally.
 
-* After its done, make sure the --no\_compat\_check boot argument is set.
+6. After its done, make sure the --no\_compat\_check boot argument is set.
 
-* Set the SMBIOS to iMac18,1 in EFI.
+7. Set the SMBIOS to iMac18,1 in EFI.
 
-* **DOUBLE CHECK** before saving!
+8. **DOUBLE CHECK** before saving!
 
-* Reboot, plug in internet and enjoy!
+9. Reboot, plug in internet and enjoy!
